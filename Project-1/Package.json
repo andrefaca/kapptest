@@ -1,0 +1,15 @@
+{
+  "name": "node test app",
+  "version": "0.1",
+  "description": "Test app to deploy to Kinsta Cloud",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "dotenv": "^16.0.1"
+  },
+"scripts": {
+   "start": "node app.js"
+}
+}

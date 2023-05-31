@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in package.json
-RUN sudo npm install
+RUN npm install
 
 # Expose Port 3000 for accessing the app
 EXPOSE 3000
